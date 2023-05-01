@@ -33,4 +33,4 @@ _name.
 
 
 How to handle merge conflicts?
-Merge conflicts occur when different branches of a project is made to add certain features. When merging branches, conflict arises when different branches are at working with different objectives.To handle this, confllicts are handled manually. This can also be done by using 'git add' command or using Pull requests that makes sure your feature is pushed. 
+Merge conflicts occur when different branches of a project is made to add certain features. When merging branches, conflict arises when different branches are at working with different objectives.To handle this, confllicts are handled manually. This can be done by using 'git add' command or using Pull requests that makes sure your feature is pushed. 
