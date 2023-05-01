@@ -22,3 +22,15 @@ Commit can be reverted using 'git revert' command. For reverting a command, comm
 
 Difference between revert and reset.
 Git revert and reset are commands used to undo changes to a file, but works differently. Resetting is a way to move the current tip of a branch to a previous commit. Reverting undoes a commit by creating a new one. This makes it safe for undoing changes. This is useful if an unexpected bug is introduced or the change wasn't needed.
+
+
+Added questions:
+
+Write the difference between fetch and pull command.
+Fetch command is used to get data from remote projects. Git Fetch tells the local repository that there are changes available in the remote repository without beinging changes in local repository. The syntax is: git fetch.
+To bring the changes to the remote repository, git pull command is used. The syntax is : git pull origin branch
+_name.
+
+
+How to handle merge conflicts?
+Merge conflicts occur when different branches of a project is made to add certain features. When merging branches, conflict arises when different branches are at working with different objectives.To handle this, confllicts are handled manually. This can also be done by using 'git add' command or using Pull requests that makes sure your feature is pushed. 
