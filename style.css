@@ -3,22 +3,33 @@
     align-self: center;
     margin: auto;
     justify-content: center;
-    display: flex;
-    
+    display: flex;   
 }
 
 .b1
 {
-    background-color: #4CAF50; /* Green */
     border: none;
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
-
-
 }
 
 th {
-  color: darkseagreen;
+  color: rgb(103, 138, 103);
+  }
+
+a{
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}  
+
+h2{
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
   }
   
