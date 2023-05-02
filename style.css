@@ -1,0 +1,24 @@
+.table
+{
+    align-self: center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.b1
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+th {
+  color: darkseagreen;
+  }
+  
